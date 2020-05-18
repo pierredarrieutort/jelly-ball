@@ -1,8 +1,15 @@
 body {
     display: flex;
-    flex-wrap: wrap;
-    place-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+
+    h1 {
+        font-size: 2vw;
+        margin-bottom: 35px;
+        font-family: sans-serif;
+    }
 
     canvas {
         border: 1px solid #000

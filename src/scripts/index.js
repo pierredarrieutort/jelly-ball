@@ -16,8 +16,8 @@ let
 for ( let i = 0; i < 10; i++ ) {
     balls = [
         new Ball(
-            200 + 100 * Math.cos( i * 2 * Math.PI / 10 ),
-            200 + 100 * Math.sin( i * 2 * Math.PI / 10 ),
+            300 + 100 * Math.cos( i * 2 * Math.PI / 10 ),
+            300 + 100 * Math.sin( i * 2 * Math.PI / 10 ),
         ),
         ...balls
     ]
